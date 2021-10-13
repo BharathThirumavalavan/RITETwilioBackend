@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="loginWindow" id="loginWindow">
+        <div class="loginDet">
+          <h2>Loslory</h2>
+          <label for="mobileNumber" id="otpLabel"
+            >Enter your mobile number</label
+          >
+          <p class="login">A 6-digit OTP will be sent on SMS</p>
+          <div id="holder" class="login">
+            <span>+91</span>
+            <input
+              type="text"
+              maxlength="10"
+              minlength="10"
+              name="mobile"
+              id="mobileNumber"
+              required="true"
+            />
+          </div>
+          <button id="phoneBtn">Submit</button>
+          <p id="otpMsg"></p>
+          <p id="errorMsg" class="login">*Please enter valid number*</p>
+        </div>
+      </div>
+      <div id="topPanel">
+        <button id="bookBtn">Book Now</button>
+        <h2>Loslory</h2>
+      </div>
+
+      <div id="header">
+        <h3>Make cheaper trips with Loslori</h3>
+      </div>
+      <div id="booking">
+        <p id="subtitle">Enter pickup location</p>
+        <input
+          type="text"
+          name="fromDestination"
+          id="fromDestination"
+          class="textbox"
+          placeholder="Current Location"
+        />
+        <input
+          type="text"
+          name="fromDestination"
+          id="fromDestination"
+          class="textbox"
+          placeholder="Drop location"
+        />
+        <button id="bookLorry">Look for a Lorry</button>
+      </div>
+
+      <div id="whyLoslory">
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A incidunt
+          nesciunt tempore quo aliquam, fugiat minima corporis expedita rerum
+          architecto nam, ratione praesentium facilis beatae fuga aut ipsum
+          dolor officia.
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A incidunt
+          nesciunt tempore quo aliquam, fugiat minima corporis expedita rerum
+          architecto nam, ratione praesentium facilis beatae fuga aut ipsum
+          dolor officia.
+        </div>
+
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A incidunt
+          nesciunt tempore quo aliquam, fugiat minima corporis expedita rerum
+          architecto nam, ratione praesentium facilis beatae fuga aut ipsum
+          dolor officia.
+        </div>
+
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A incidunt
+          nesciunt tempore quo aliquam, fugiat minima corporis expedita rerum
+          architecto nam, ratione praesentium facilis beatae fuga aut ipsum
+          dolor officia.
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A incidunt
+          nesciunt tempore quo aliquam, fugiat minima corporis expedita rerum
+          architecto nam, ratione praesentium facilis beatae fuga aut ipsum
+          dolor officia.
+        </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A incidunt
+          nesciunt tempore quo aliquam, fugiat minima corporis expedita rerum
+          architecto nam, ratione praesentium facilis beatae fuga aut ipsum
+          dolor officia.
+        </div>
+      </div>
+    </header>
+
+    <footer>
+      <div id="contactInfo">
+        <div>Contact Us</div>
+        <hr />
+        <div>Social Links</div>
+        <hr />
+      </div>
+      <div id="privacy">
+        <span>Notices </span>
+        <span>Terms & Conditions </span>
+        <span>Privacy Policy </span>
+      </div>
+    </footer>
+    <script src="js/getLocation.js" type="module" defer></script>
+    <script src="js/login.js" type="module" defer></script>
+  </body>
+</html>
